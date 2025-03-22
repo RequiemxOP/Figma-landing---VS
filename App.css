@@ -1,0 +1,64 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans",
+    "Droid Sans", "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: bold;
+}
+
+/* Image classes for the grid */
+.blonde-person-image {
+  background-image: url("https://hebbkx1anhila5yf.public.blob.vercel-storage.com/50_2B_Landing_page_designs__Community_-40xToSaIMa5UUUUn0dqRFA67m3Iv9N.png");
+  background-position: 81.5% 15%;
+  background-size: 400%;
+  background-repeat: no-repeat;
+}
+
+.creative-person-image {
+  background-image: url("https://hebbkx1anhila5yf.public.blob.vercel-storage.com/50_2B_Landing_page_designs__Community_-40xToSaIMa5UUUUn0dqRFA67m3Iv9N.png");
+  background-position: 50% 48%;
+  background-size: 200%;
+  background-repeat: no-repeat;
+}
+
+.bw-person-image {
+  background-image: url("https://hebbkx1anhila5yf.public.blob.vercel-storage.com/50_2B_Landing_page_designs__Community_-40xToSaIMa5UUUUn0dqRFA67m3Iv9N.png");
+  background-position: 81.5% 48%;
+  background-size: 400%;
+  background-repeat: no-repeat;
+}
+
+.curly-hair-person-image {
+  background-image: url("https://hebbkx1anhila5yf.public.blob.vercel-storage.com/50_2B_Landing_page_designs__Community_-40xToSaIMa5UUUUn0dqRFA67m3Iv9N.png");
+  background-position: 18.5% 82%;
+  background-size: 400%;
+  background-repeat: no-repeat;
+}
+
+.diverse-person-image {
+  background-image: url("https://hebbkx1anhila5yf.public.blob.vercel-storage.com/50_2B_Landing_page_designs__Community_-40xToSaIMa5UUUUn0dqRFA67m3Iv9N.png");
+  background-position: 81.5% 82%;
+  background-size: 400%;
+  background-repeat: no-repeat;
+}
+
+.red-light-person-image {
+  background-image: url("https://hebbkx1anhila5yf.public.blob.vercel-storage.com/50_2B_Landing_page_designs__Community_-40xToSaIMa5UUUUn0dqRFA67m3Iv9N.png");
+  background-position: 50% 82%;
+  background-size: 400%;
+  background-repeat: no-repeat;
+}
+
