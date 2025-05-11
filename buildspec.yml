@@ -1,0 +1,28 @@
+version: 0.2
+
+phases:
+  install:
+    runtime-versions:
+      nodejs: 14  # Change this based on your app's requirements
+    commands:
+      - echo "Installing dependencies"
+      - npm install
+
+  build:
+    commands:
+      - echo "Build started on `date`"
+      - npm run build  # Change this based on your app's build command, if necessary
+
+  post_build:
+    commands:
+      - echo "Build completed on `date`"
+
+artifacts:
+  files:
+    - '**/*'  # Adjust based on what files you need to package for deployment (e.g., compiled assets, build artifacts)
+  base-directory: /path/to/your/app  # Make sure this matches where your app's built artifacts are located
+  discard-paths: yes  # Ensures everything is flattened into the root of the artifact zip
+
+cache:
+  paths:
+    - '/root/.npm/**/*'  # This will cache your npm packages to speed up builds
